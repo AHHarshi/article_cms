@@ -3,7 +3,11 @@ name: Build and deploy Python app to Azure Web App - cmsprojectudacity
 on:
   push:
     branches:
-      - master  # or 'main' if that's your branch name
+      - master
+
+permissions:
+  id-token: write
+  contents: read
 
 jobs:
   build-and-deploy:
