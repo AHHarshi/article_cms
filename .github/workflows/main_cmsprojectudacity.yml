@@ -21,7 +21,8 @@ jobs:
       - name: Install ODBC dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y unixodbc-dev
+          sudo apt-get install -y unixodbc unixodbc-dev libpq-dev gcc g++ python3-dev
+
 
       - name: Install Python dependencies
         run: |
