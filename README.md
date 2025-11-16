@@ -59,3 +59,4 @@ Title: "Hello World!", Author: "Jane Doe". Body: "My name is Jane Doe and this i
 7. Your application code—most importantly __init__.py and views.py since they will contain your updates for Auth and Logging.
 8. Your WRITEUP.md file analyzing and explaining your choice between a VM or App Service.
 9. OPTIONAL: A URL to your Python App Service.
+"# Trigger OIDC fix" 
